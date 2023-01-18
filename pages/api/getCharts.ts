@@ -12,6 +12,13 @@ export type ChartLink = {
 
 const registerLinks: Array<ChartLink> = [
   {
+    icon: "IconHomeBolt",
+    label: "首页",
+    iconColor: "blue",
+    color: "blue",
+    link: "",
+  },
+  {
     icon: "IconChartArcs",
     label: "饼图",
     iconColor: "green",
