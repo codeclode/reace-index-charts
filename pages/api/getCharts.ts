@@ -33,5 +33,6 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Array<ChartLink>>
 ) {
+  res.setHeader("Access-Control-Allow-Origin", "*");
   res.status(200).json(registerLinks);
 }
