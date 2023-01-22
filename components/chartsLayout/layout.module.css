@@ -1,0 +1,21 @@
+.outter {
+  overflow: auto;
+}
+
+.outter .header {
+  padding: 15px;
+  background: transparent;
+}
+
+.mainContainer .Sider {
+  background: transparent;
+}
+
+.content {
+  padding: 15px;
+  user-select: none;
+}
+
+.footer {
+  direction: rtl;
+}

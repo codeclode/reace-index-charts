@@ -43,22 +43,16 @@ export default function Home() {
 
         <div className={styles.center}>
           <Image
+            onClick={() =>
+              window.open("https://space.bilibili.com/401315430", "__blank")
+            }
             className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
+            src="/tong.png"
+            alt="tong"
             width={180}
-            height={37}
+            height={180}
             priority
           />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
         </div>
 
         <div className={styles.grid}>
